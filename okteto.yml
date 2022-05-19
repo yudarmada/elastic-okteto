@@ -4,4 +4,4 @@ deploy:
   - name: Install Elasticsearch Charts
     command: helm repo add elastic https://helm.elastic.co
   - name: Deploy Elasticsearch
-    command:  helm upgrade --install elasticsearch elastic/elasticsearch -f ./values.yml --version 7.17
+    command:  helm upgrade --install elasticsearch elastic/elasticsearch -f values.yml --version 7.17
